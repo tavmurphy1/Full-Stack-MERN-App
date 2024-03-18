@@ -6,7 +6,7 @@
 
 # Key Features
 
-  Exercise Logging:Users can seamlessly add new exercise entries with details including name, repetitions, weight, units (kgs or lbs), and date.
+  Exercise Logging: Users can seamlessly add new exercise entries with details including name, repetitions, weight, units (kgs or lbs), and date.
 
   Data Visualization: Exercise history is displayed in a clear, tabular format for easy tracking and analysis.
 
@@ -43,8 +43,6 @@
   npm start 
 
 # 3 - Install Dependencies and Start (Frontend):
-
-  Bash
 
   cd exercise-tracker/exercises-ui
 
