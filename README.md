@@ -87,5 +87,7 @@
   Feel free to reach out for questions or collaborations!
 
   Tavner Murphy
+  
   tavmurphy@gmail.com
+  
   https://www.github.com/tavmurphy1
