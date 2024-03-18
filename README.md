@@ -60,7 +60,7 @@
 
 # Project Structure
 
-  backend
+  - Back-End -
 
   model.js - Contains Mongoose model definitions.
 
@@ -68,7 +68,7 @@
 
   server.js - Main Express server configuration.
 
-# frontend
+  - Front-End -
 
   src
 
