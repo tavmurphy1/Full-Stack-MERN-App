@@ -59,16 +59,16 @@
   Edit Exercise Page: Modify existing exercise information.
 
 # Project Structure
+  
+  Back-End
 
-  - Back-End -
+  - model.js - Contains Mongoose model definitions.
 
-  model.js - Contains Mongoose model definitions.
+  - routes.js - Defines API endpoint routes and controller logic.
 
-  routes.js - Defines API endpoint routes and controller logic.
+  - server.js - Main Express server configuration.
 
-  server.js - Main Express server configuration.
-
-  - Front-End -
+  Front-End
 
   src
 
