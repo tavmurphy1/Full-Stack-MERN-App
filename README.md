@@ -1,4 +1,4 @@
-# Project Title: Exercise Tracker
+# Exercise Tracker: Full-Stack MERN App
 
 # Description
 
