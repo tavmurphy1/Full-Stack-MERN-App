@@ -1,0 +1,55 @@
+### Request 1: Create an exercise
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Squat",
+    "reps": 10,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "08-10-21"
+}
+
+### Request 2: Create another exercise
+POST http://localhost:3000/exercises HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Deadlift",
+    "reps": 10,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "06-25-21"
+}
+
+### Request 3: Retrieve all should return the 2 exercises we just created
+GET http://localhost:3000/exercises HTTP/1.1
+
+### Request 4: Retrieve by ID should return the Deadlift exercise
+### Note: Update the value of _id in the following URL to what was assigned to the Deadlift
+GET http://localhost:3000/exercises/65dec95fb4f6eb719f8c8a7a HTTP/1.1
+
+
+###Request 5: Edit the Deadlift. 
+### Note: Update the value of _id in the following URL to what was assigned to the Deadlift
+PUT http://localhost:3000/exercises/65dec95fb4f6eb719f8c8a7a HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Deadlift",
+    "reps": 12,
+    "weight": 30,
+    "unit": "lbs",
+    "date": "06-25-21"
+}
+
+### Request 6: Verify that reps value for Deadlift is now 12
+GET http://localhost:3000/exercises HTTP/1.1
+
+
+### Request 7: Delete the Deadlift
+### Note: Update the value of _id in the following URL to what was assigned to the Deadlift
+DELETE http://localhost:3000/exercises/65f5d94329f4d5aab2bc7b9d HTTP/1.1
+
+### Request 8: Verify that the Deadlift exercise has been deleted
+GET http://localhost:3000/exercises HTTP/1.1
